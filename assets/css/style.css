@@ -1,0 +1,110 @@
+@font-face {
+    font-family: Maven;
+    src: url(/assets/MavenPro-VariableFont_wght.ttf)
+}
+
+@font-face {
+    font-family: Gilda;
+    src: url(/assets/GildaDisplay-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    color: #cccccc;
+    background-color: #333;
+    font-family: "Maven";
+    padding-bottom: 15px;
+}
+
+a {
+    
+    display: block;
+    text-decoration: none;
+    color: #cccccc;
+    text-align: right;
+    padding: 5px;
+    margin-right: 15px;
+    
+}
+
+a:hover {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+div {
+    text-align: center;
+    width: 250px;
+    margin: 100px auto;
+    background-image: linear-gradient(to bottom left,#3dc8d5, #194894, #8507e1);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+div:hover {
+    background-image: linear-gradient(to bottom left, #8507e1, #194894, #3dc8d5 );
+    
+}
+
+h2 {
+    font-family: "Gilda";
+    font-size: 50px;
+}
+
+section {
+    /* background: url(https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg) no-repeat center; */
+    /* width: 100%; */
+    /* background-size: cover; */
+}
+
+h3 {
+    /* background: url(https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg) no-repeat center; */
+    font-size: 60px;
+    /* margin: 600px; */
+    display: block;
+    margin: 0 0 50px 330px;
+}
+
+section img {
+    display: block;
+    margin: 200px auto 0 auto;
+}
+
+section p {
+    font-family: "Maven";
+    width: 600px;
+    margin: 0 0 50px 330px;
+    line-height: 30px;
+}
+
+p:nth-child(4) {
+    margin-bottom: 350px;
+}
+
+article img {
+    width: 800px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto 50px auto;
+    
+}
+
+h4 { 
+    font-size: 60px;
+    margin: 0 0 30px 330px;
+}
+
+article p {
+    font-family: "Maven";
+    text-transform: uppercase;
+    margin: 0 0 200px 330px;
+}
